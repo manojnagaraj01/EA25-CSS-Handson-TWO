@@ -59,10 +59,11 @@ body{
 
 
 form{
-    margin-top: 50px;
-    margin-left: 800px;
+    margin-top: 100px;
+    margin-left: 200px;
     width:25%;
-    height: 650px;
+    height: auto;
+    display: inline-block;
     border: 5px dashed red;
     text-align: center;
 
@@ -89,10 +90,11 @@ form input{
 .circle{
     width: 500px;
     height: 500px;
+    display: inline-block;
     border: 10px solid gray;
     background-color: rgb(39, 119, 119);
     border-radius: 50%;
-    margin-top: -600px;
+    /* margin-top: -500px; */
     margin-left: 10px;
 }
 
@@ -135,7 +137,7 @@ form input{
     border-radius: 30px;
     text-align: center;
     width: 25%;
-    margin-top: 125px;
+    margin-top: 50px;
     margin-left: 485px;
     padding-top: 10px;
     padding-bottom: 10px;
